@@ -176,7 +176,14 @@ button a {
   margin-bottom: 5px;
   background-color: #e6e6e6;
 }
-
+#about h1 {
+  font-size: 20pt;
+  color: #12194d;
+}
+a[target="_blank"]:after {
+  font-family: "FontAwesome";
+  content: " \f35d";
+}
 /*boxes*/
 #boxes {
   margin-top: 50px;
@@ -240,11 +247,4 @@ footer {
   #showcase h1 {
     margin-top: 50px;
   }
-}
-
-.ddd {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
 }
