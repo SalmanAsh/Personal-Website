@@ -107,6 +107,12 @@ header a:hover {
   padding: 50px;
   color: #2b2929;
   background-color: #3e4955;
+  align-items: center;
+  justify-content: center;
+}
+.ddd {
+  align-items: center;
+  justify-content: center;
 }
 .bsc {
   border: rgb(62, 79, 94) solid 2px;
@@ -180,9 +186,16 @@ button a {
   font-size: 20pt;
   color: #12194d;
 }
-a[target="_blank"]:after {
+#about a[target="_blank"]:after {
   font-family: "FontAwesome";
   content: " \f35d";
+}
+#about a,
+.box a {
+  color: #4970db;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 /*boxes*/
 #boxes {
